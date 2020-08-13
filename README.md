@@ -1,7 +1,6 @@
 # Aplikasi Elearning Ujian Online
 Link Demo : 
-http://elearning.klikgss.com/adm/login
-
+http://elearning.klikgss.com/
 #Deskripsi
 Aplikasi Ujian Online, adalah aplikasi yang digunakan untuk melakukan proses ujian , tanpa menggunakan kertas (paperless) , atau sekarang ngetren dengan nama Computer Based Test (CBT), atau Computer Assisted Test (CAT). Semua proses ujian dilakukan melalui komputer, mulai dari pembuatan soal, pengaturan kelas, pengaturan user yang bisa ikut ujian, pengaturan guru mengajar, sampai proses ujian, dengan memanfaatkan teknologi rekayasa web. Tipe soal yang bisa masuk ke aplikasi ujian online di pembahasan ini adalah tipe soal pilihan ganda. 
 
@@ -16,5 +15,11 @@ Aplikasi Ujian Online, adalah aplikasi yang digunakan untuk melakukan proses uji
 2. Guru, mempunyai akses, bisa memanage data : soal, daftar ujian, dan melihat hasil ujian
 3. Siswa, mempunya akses, bisa mengikuti ujian, sesuai dengan mata pelajaran yang ia ikuti, yang diatur oleh  level admin, dan melihat hasil ujian.
 
-Screenshot :
-[tampilkan_gambar]: http://ulas.in/wp-content/uploads/2016/02/gambar-memotret.png "Sorot gambar, akan keluar tulisan ini"
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(5).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(6).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(7).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(8).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(9).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(10).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(11).png)
+![alt text](https://github.com/dicky54putra/elearning.klikgss.com/blob/master/screenshot/Screenshot%20(12).png)
