@@ -84,7 +84,38 @@
             </tr>
             <tr>
               <td style="width: 25%">Kelas</td>
-              <td style="width: 75%"><input type="text" class="form-control" name="kelas" id="kelas" required></td>
+              <!-- <td style="width: 75%"><input type="text" class="form-control" name="kelas" id="kelas" required></td> -->
+              <td>
+                <select name="kelas" id="kelas" type="text" class="form-control select2" required>
+                  <option value="">--Pilih Kelas--</option>
+                  <option value="X AKL 1">X AKL 1</option>
+                  <option value="X AKL 2">X AKL 2</option>
+                  <option value="X OTKP 1">X OTKP 1</option>
+                  <option value="X OTKP 2">X OTKP 2</option>
+                  <option value="X BDP 1">X BDP 1</option>
+                  <option value="X BDP 2">X BDP 2</option>
+                  <option value="X TKJ 1">X TKJ 1</option>
+                  <option value="X TKJ 2">X TKJ 2</option>
+
+                  <option value="XI AKL 1">XI AKL 1</option>
+                  <option value="XI AKL 2">XI AKL 2</option>
+                  <option value="XI OTKP 1">XI OTKP 1</option>
+                  <option value="XI OTKP 2">XI OTKP 2</option>
+                  <option value="XI BDP 1">XI BDP 1</option>
+                  <option value="XI BDP 2">XI BDP 2</option>
+                  <option value="XI TKJ 1">XI TKJ 1</option>
+                  <option value="XI TKJ 2">XI TKJ 2</option>
+
+                  <option value="XII AKL 1">XII AKL 1</option>
+                  <option value="XII AKL 2">XII AKL 2</option>
+                  <option value="XII OTKP 1">XII OTKP 1</option>
+                  <option value="XII OTKP 2">XII OTKP 2</option>
+                  <option value="XII BDP 1">XII BDP 1</option>
+                  <option value="XII BDP 2">XII BDP 2</option>
+                  <option value="XII TKJ 1">XII TKJ 1</option>
+                  <option value="XII TKJ 2">XII TKJ 2</option>
+                </select>
+              </td>
             </tr>
             <tr>
               <td style="width: 25%">Email</td>

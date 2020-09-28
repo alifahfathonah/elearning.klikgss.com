@@ -285,6 +285,7 @@ function m_siswa_e(id) {
 			$("#nama").val(data.nama);
 			$("#nis").val(data.nis);
 			$("#kelas").val(data.kelas);
+			// (data.email == $("#kelas").val()) ? console.log('selecter'): '';
 			$("#email").val(data.email);
 			$("#nama").focus();
 			$("#nis").focus();
@@ -535,9 +536,29 @@ function m_mapel_e(id) {
 		type: "GET",
 		url: base_url + "adm/m_mapel/det/" + id,
 		success: function (data) {
+			if (id == 0) {
+				var text = '';
+				$("#kelas").attr('class', 'form-control	');
+			} else {
+				$("#kelas_").attr('class', 'hidden');
+				var text = data.nama;
+			}
+			// var length = text.length;
+			// var num_char = -12;
+			// var text_split = text.substr(num_char);
+			// if (num_char + 1 != ')') {
+			// 	var new_pos = text_split.lastIndexOf(')');
+			// 	var new_pos_ = length - 1 - new_pos;
+			// 	var cut_text = text.substr(0, new_pos_);
+			// 	var cut_text_ = text.substr('-' + new_pos_);
+			// }
+			// console.log(num_char);
+			// console.log(new_pos);
+			// console.log(length);
+			// console.log(cut_text_);
 			$("#id").val(data.id);
 			$("#nama").val(data.nama);
-			$("#nama").focus();
+			// $("#nama").focus();
 		}
 	});
 	return false;

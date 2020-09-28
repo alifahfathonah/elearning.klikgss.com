@@ -30,7 +30,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand"><b>Aplikasi E-Learning SMP INSTITUT INDONESIA SEMARANG</b></a>
+        <a class="navbar-brand"><b>Aplikasi E-Learning SMK Pelita Nusantara 1 Semarang</b></a>
       </div>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
@@ -123,7 +123,7 @@
     <?php echo $this->load->view($p); ?>
 
     <div class="col-md-12" style="border-top: solid 4px #ddd; text-align: center; padding-top: 10px; margin-top: 50px; margin-bottom: 20px">
-      <b style="color: white;">&copy; <?= date('Y') ?></b> <a href="<?php echo base_url(); ?>adm"><b>Aplikasi E-Learning SMP INSTITUT INDONESIA SEMARANG</b></a>.
+      <b style="color: white;">&copy; <?= date('Y') ?></b> <a href="<?php echo base_url(); ?>adm"><b>Aplikasi E-Learning SMK Pelita Nusantara 1 Semarang</b></a>.
     </div>
 
     <!-- insert modal -->

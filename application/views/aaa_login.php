@@ -44,7 +44,7 @@
 		<div class="col-md-4"></div>
 	</div>
 
-	<div class="ctr"> <b style="color: white;">&copy; <?= date('Y') ?> </b><a href="<?php echo base_url(); ?>adm"><b>Aplikasi E-Learning SMP INSTITUT INDONESIA SEMARANG</b></a>. </div>
+	<div class="ctr"> <b style="color: white;">&copy; <?= date('Y') ?> </b><a href="<?php echo base_url(); ?>adm"><b>Aplikasi E-Learning SMK Pelita Nusantara 1 SemarangG</b></a>. </div>
 	<!-- /footer -->
 	<!-- Le javascript
 ================================================== -->
