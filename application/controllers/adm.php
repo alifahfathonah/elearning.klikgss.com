@@ -129,11 +129,11 @@ class Adm extends CI_Controller
 				];
 				$this->load->library('email', $config);
 
-				$this->email->from($admin->email, 'Aplikasi E-Learning SMP INSTITUT INDONESIA SEMARANG');
+				$this->email->from($admin->email, 'Aplikasi E-Learning SMK PELITA NUSANTARA 1 SEMARANG');
 
 				$this->email->to($det_user->email);
 
-				$this->email->subject('Akun E-Learning SMP INSTITUT INDONESIA SEMARANG');
+				$this->email->subject('Akun E-Learning SMK PELITA NUSANTARA 1 SEMARANG');
 				$this->email->message('Hay ' . $det_user->nama . '!, Akun anda sudah diaktifkan. Username otomatis adalah "' . $det_user->nis . '", dan Password default adalah "123" silahkan dirubah pada menu "Ubah Password" apabila sudah login.');
 
 				if ($this->email->send()) {
